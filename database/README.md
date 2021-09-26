@@ -53,4 +53,4 @@
 
 Полученная схема должна выглядеть следующим образом:
 
-![Database schema](schema.jpg)
+![Database schema](./schema.jpg)
