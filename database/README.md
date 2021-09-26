@@ -48,8 +48,8 @@
 
 Вставить в таблицу следующие значения:
 
-- ADMIN - Administrator
-- USER - User
+- [ADMIN, Administrator] - администраторы
+- [USER, User] - пользователи
 
 ### Таблица `phone_types` - "типы номеров телефонов"
 
@@ -58,10 +58,10 @@
 
 Вставить в таблицу следующие значения:
 
-- WORK - Work phone number
-- HOME - Home phone number
-- MOBILE - Mobile phone number
-- OTHER - Other phone number
+- [WORK, Work phone number] - рабочий номер телефона
+- [HOME, Home phone number] - домашний номер телефона
+- [MOBILE, Mobile phone number] - мобильный номер телефона
+- [OTHER, Other phone number] - другой номер телефона
 
 ### Таблица `delivery_types` - "типы продажи"
 
@@ -70,8 +70,8 @@
 
 Вставить в таблицу следующие значения:
 
-- DELIVERY - Delivery
-- SELF-PICKUP - Self-pickup
+- [DELIVERY, Delivery] - доставка
+- [SELF-PICKUP, Self-pickup] - самовывоз
 
 ### Таблица `order_statuses` - "статусы заказа"
 
@@ -80,9 +80,9 @@
 
 Вставить в таблицу следующие значения:
 
-- CLOSED - Closed
-- CANCELLED - Cancelled
-- OPENED - Opened
+- [CLOSED, Closed] - заказ закрыт (выполнен)
+- [CANCELLED, Cancelled] - заказ отменен
+- [OPENED, Opened] - заказ открыт
 
 ### Таблица `addresses` - "адреса"
 
