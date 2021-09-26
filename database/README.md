@@ -31,15 +31,15 @@
 
 Вставить в таблицу следующие значения:
 
-- GPU - Graphics Processing Unit
-- CPU - Central Processing Unit
-- MB - Motherboard
-- RAM - Random Access Memory
-- SSD - Solid-State Drive
-- HDD - Hard Disk Drive
-- CASE - Case
-- POWER - Power Supply
-- COOL - Cooling
+- [GPU, Graphics Processing Unit] - видеокарты
+- [CPU, Central Processing Unit] - процессоры
+- [MB, Motherboard] - материнские платы
+- [RAM, Random Access Memory] - оперативная память
+- [SSD, Solid-State Drive] - SSD накопители
+- [HDD, Hard Disk Drive] - HDD накопители
+- [CASE, Case] - корпуса
+- [POWER, Power Supply] - блоки питания
+- [COOL, Cooling] - охлаждение
 
 ### Таблица `user_types` - "типы пользователей"
 
