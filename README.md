@@ -47,15 +47,15 @@
 :star::star::star::star::star: Обеспечить поднятие, остановку и работу сервисов
  (backend, database, tests) через `docker compose`. Описать файл `docker-compose.yml`;
 
-:star::star::star::star::star::star: Сделать front-end сторону приложения. Это должен
- быть отдельный сервис на любом современном JavaScript фреймворке (`React.js`, `View`,
- `Angular` и т.д.). Сервис должен также подниматься в `docker compose` из п.5.
+:star::star::star::star::star::star: Сделать аутентификацию/авторизацию
+ и разделение прав пользователей (пользователь и администратор)
 
 :star::star::star::star::star::star::star: Настроить GitHub actions для автопрогона
  тестов
 
-:star::star::star::star::star::star::star::star: Сделать аутентификацию/авторизацию
- и разделение прав пользователей (пользователь и администратор)
+:star::star::star::star::star::star::star::star: Сделать front-end сторону приложения. Это должен
+ быть отдельный сервис на любом современном JavaScript фреймворке (`React.js`, `View`,
+ `Angular` и т.д.). Сервис должен также подниматься в `docker compose` из п.5.
 
 ## Проектирование базы данных приложения
 
