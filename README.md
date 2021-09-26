@@ -47,24 +47,20 @@
 
 ## Проектирование базы данных приложения
 
-В качестве БД (базы данных) для проекта необходимо использовать РСУБД `MySQL` или
-`PostgreSQL`. Может быть использована локальная база данных или работающая в Docker
-(В зависимости от уровня сложности).
-Для демонстрации работы проекта необходимо, чтобы БД содержала некоторые тестовые
-данные (была предзаполнена).
-
 :link: [Схема базы данных](database/README.md)
 
 ## Проектирование REST api (все проекты, кроме telegram бота)
 
-:link:
+:link: [REST api проекта](rest_api/README.md)
 
 ## Проектирование чат-бот api (только для проекта telegram бот)
 
+:link: [Чат-бот api](chat_bot_api/README.md)
+
 ## Проекты
 
-1. Telegram бот;
-2. REST api на фреймворках Django и Django REST framework;
-3. REST api на фреймворке FastAPI;
-4. REST api на фреймворке flask;
-5. REST api на фреймворке aiohttp.
+1. [Telegram бот](telegram_bot/README.md);
+2. [REST api на фреймворках Django и Django REST framework](django_project/README.md);
+3. [REST api на фреймворке FastAPI](fastapi_project/README.md);
+4. [REST api на фреймворке flask](flask_project/README.md);
+5. [REST api на фреймворке aiohttp](aiohttp_project/README.md).
