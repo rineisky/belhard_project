@@ -52,7 +52,7 @@ Response (code 201):
 
 Request:
 ```http request
-GET http://localhost:8000/order-statuses/{id}
+GET http://localhost:8000/order-statuses/{order_status_id}
 ```
 
 Response (code 200):
@@ -67,7 +67,7 @@ Response (code 200):
 
 Request:
 ```http request
-PUT http://localhost:8000/order-statuses/{id}
+PUT http://localhost:8000/order-statuses/{order_status_id}
 ```
 
 Payload:
@@ -89,7 +89,7 @@ Response (code 200):
 ## Удаление конкретного статуса заказа
 
 ```http request
-DELETE http://localhost:8000/order-statuses/{id}
+DELETE http://localhost:8000/order-statuses/{order_status_id}
 ```
 
 Response (code 200):

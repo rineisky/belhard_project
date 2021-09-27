@@ -89,7 +89,6 @@ REST представляет собой согласованный набор �
 ## Ресурсы, которые необходимо создать
 
 - [Категории товаров](categories/README.md) (`/categories`);
-- [Товары](items/README.md) (`/categories/{category_id}/items`);
 - [Типы доставки](delivery_types/README.md) (`/delivery-types`);
 - [Статусы заказа](order_statuses/README.md) (`/order-statuses`);
 - [Типы номеров телефонов](phone_types/README.md) (`/phone-types`);

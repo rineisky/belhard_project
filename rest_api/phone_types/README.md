@@ -56,7 +56,7 @@ Response (code 201):
 
 Request:
 ```http request
-GET http://localhost:8000/phone-types/{id}
+GET http://localhost:8000/phone-types/{phone_type_id}
 ```
 
 Response (code 200):
@@ -71,7 +71,7 @@ Response (code 200):
 
 Request:
 ```http request
-PUT http://localhost:8000/phone-types/{id}
+PUT http://localhost:8000/phone-types/{phone_type_id}
 ```
 
 Payload:
@@ -93,7 +93,7 @@ Response (code 200):
 ## Удаление конкретного типа номера телефона
 
 ```http request
-DELETE http://localhost:8000/phone-types/{id}
+DELETE http://localhost:8000/phone-types/{phone_type_id}
 ```
 
 Response (code 200):

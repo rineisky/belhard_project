@@ -48,7 +48,7 @@ Response (code 201):
 
 Request:
 ```http request
-GET http://localhost:8000/delivery-types/{id}
+GET http://localhost:8000/delivery-types/{delivery_type_id}
 ```
 
 Response (code 200):
@@ -63,7 +63,7 @@ Response (code 200):
 
 Request:
 ```http request
-PUT http://localhost:8000/delivery-types/{id}
+PUT http://localhost:8000/delivery-types/{delivery_type_id}
 ```
 
 Payload:
@@ -85,7 +85,7 @@ Response (code 200):
 ## Удаление конкретной категории
 
 ```http request
-DELETE http://localhost:8000/delivery-types/{id}
+DELETE http://localhost:8000/delivery-types/{delivery_type_id}
 ```
 
 Response (code 200):

@@ -76,7 +76,7 @@ Response (code 201):
 
 Request:
 ```http request
-GET http://localhost:8000/companies/{id}
+GET http://localhost:8000/companies/{company_id}
 ```
 
 Response (code 200):
@@ -99,7 +99,7 @@ Response (code 200):
 
 Request:
 ```http request
-PUT http://localhost:8000/companies/{id}
+PUT http://localhost:8000/companies/{company_id}
 ```
 
 Payload:
@@ -128,7 +128,7 @@ Response (code 200):
 ## Удаление конкретной компании
 
 ```http request
-DELETE http://localhost:8000/companies/{id}
+DELETE http://localhost:8000/companies/{company_id}
 ```
 
 Response (code 200):
@@ -145,4 +145,34 @@ Response (code 200):
         "postal_code": "220022"
     }
 }
+```
+
+## Получение списка товаров конкретного изготовителя
+
+```http request
+GET http://localhost:8000/companies/{company_id}/items
+```
+
+## Добавление товара конкретного изготовителя
+
+```http request
+POST http://localhost:8000/companies/{company_id}/items
+```
+
+## Получение информации о конкретном товаре конкретного изготовителя
+
+```http request
+GET http://localhost:8000/companies/{company_id}/items/{item_id}
+```
+
+## Редактирование информации конкретного товара конкретного изготовителя
+
+```http request
+PUT http://localhost:8000/companies/{company_id}/items/{item_id}
+```
+
+## Удаление конкретного товара конкретного изготовителя
+
+```http request
+DELETE http://localhost:8000/companies/{company_id}/items/{item_id}
 ```
