@@ -74,5 +74,3 @@
 1. [Telegram бот](telegram_bot/README.md);
 2. [REST api на фреймворках Django и Django REST framework](django_project/README.md);
 3. [REST api на библиотеке FastAPI](fastapi_project/README.md);
-4. [REST api на библиотеке flask](flask_project/README.md);
-5. [REST api на библиотеке aiohttp](aiohttp_project/README.md).
